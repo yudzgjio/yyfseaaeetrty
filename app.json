@@ -1,0 +1,30 @@
+{
+  "name": "ty",
+  "description": "ty",
+  "keywords": [
+    "ty"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/yudzgjio/yyfseaaeetrty/",
+  "repository": "https://github.com/yudzgjio/yyfseaaeetrty/",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
